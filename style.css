@@ -1,0 +1,651 @@
+/*HEADER*/
+
+header{
+    height: 100px;
+}
+
+ul{
+    display: inline;
+    font-size: 20px;
+}
+
+.header{
+    margin: 40px;
+    text-align: center;
+}
+
+/*PARTIE1*/
+
+.partie1{
+    background-image: url("img/partie2.webp");
+    height: 580px;
+    text-align: center;
+    
+}
+
+.groupe{
+    padding-top: 150px;
+}
+
+.groupe img{
+    height: 110px;
+    border-radius: 15%;
+}
+
+.P1{
+    border: 1px solid;
+    padding: 25px;
+    width: 350px;
+    margin-left: 400px;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+}
+
+.P2{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*PARTIE2*/
+
+.partie2  {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    height: 400px;
+    padding-top: 200px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.partie2 img{
+    width: 40%; 
+    border: 1px solid blue;
+    border-radius: 50%;  
+    padding: 30px;
+}
+
+
+/*PARTIE3*/
+
+.partie3{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 250px;
+    padding-top: 60px;
+    line-height: 70px;
+    margin-bottom: 0px;
+}
+
+/*PARTIE4*/
+
+
+#premier , #second , #troisieme , #quatrieme , #pre , #sec , #troi , #qua{
+    width: 25%;
+    height: 300px;
+    padding-top: 30px;
+    
+}
+
+#premier{
+    background-color: aqua;
+    line-height: 5px;
+    text-align: center;
+}
+
+#second{
+    background-color: brown;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+#troisieme{
+    background-color: white;
+    text-align: center;
+}
+
+#quatrieme{
+    background-color: chocolate;
+    text-align: center;
+   
+}
+
+
+.haut , .bas{
+    display: flex;
+    flex-direction: row;
+}
+
+#pre{
+    text-align: center;
+    background-color: beige;
+}
+
+
+#sec{
+    text-align: center;
+    background-color: blue;
+    font-size: 25px;
+    color: white;
+}
+
+#troi{
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.partie4{
+    height: 530px;
+    padding-top: 170px;
+}
+
+.partie4 h2 , .partie4 .Lorem{
+    text-align: center;
+}
+
+.num1 , .num2 , .num3 , .num4{
+    width: 450px;
+    height: 13px;
+    border-top-left-radius: 50px 20px;
+    border-bottom-left-radius: 50px 20px;
+    border-top-right-radius: 50px 20px;
+    border-bottom-right-radius: 50px 20px;
+}
+
+#left{
+    margin-left: 80px;
+    float: left;
+}
+
+#right{
+    margin-right: 80px;
+    float: right;
+}
+
+.num1{
+    background-color: cyan;
+}
+
+
+.num2 .gauche{
+    width: 360px;
+    background-color: cyan ;
+    float: left;
+    height: 13px;
+    border-top-left-radius: 50px 20px;
+    border-bottom-left-radius: 50px 20px;
+}
+
+.num2 .droite{
+    width: 90px;
+    background-color: darkgray;
+    float: right;
+    height: 13px;
+    border-top-right-radius: 50px 20px;
+    border-bottom-right-radius: 50px 20px;
+}
+
+
+.num3 .gauche2{
+    width: 405px;
+    background-color: cyan ;
+    float: left;
+    height: 13px;
+    border-top-left-radius: 50px 20px;
+    border-bottom-left-radius: 50px 20px;
+}
+
+.num3 .droite2{
+    width: 45px;
+    background-color: darkgray ;
+    float: right;
+    height: 13px;
+    border-top-right-radius: 50px 20px;
+    border-bottom-right-radius: 50px 20px;
+}
+
+.num4 .gauche3{
+    width: 320px;
+    background-color: cyan ;
+    float: left;
+    height: 13px;
+    border-top-left-radius: 50px 20px;
+    border-bottom-left-radius: 50px 20px;
+}
+
+.num4 .droite3{
+    width: 130px;
+    background-color: darkgray ;
+    float: right;
+    height: 13px;
+    border-top-right-radius: 50px 20px;
+    border-bottom-right-radius: 50px 20px;
+}
+
+span{
+    float: right;
+    font-size: 20px;
+}
+
+.Lorem{
+    padding-top: 30px;
+}
+
+.progression{
+    padding-top: 80px;
+}
+
+
+/*PARTIE5*/
+
+.partie5{
+    background-color: cornflowerblue;
+    padding-top: 50px;
+    height: 700px;
+}
+
+.partie5 h2{
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.partie5 p{
+    padding-bottom: 80px;
+    text-align: center;
+    color: white;
+}
+
+
+#jane , #jacob , #leslie , #brooklyn{
+    height: 400px;
+    width: 600px;
+    text-align: center;
+}
+
+#jane:hover , #jacob:hover , #leslie:hover , #brooklyn:hover{
+    transform: scale(1.1);   
+}
+
+.team{
+    display: flex;
+    flex-direction: row;
+    gap: 50px ;
+    margin-left: 60px;
+}
+
+.av1 , .av2 , .av3 , .av4{
+    height: 264px;
+    width: 210px;
+}
+
+.av3{
+    padding-top: 10px;
+}
+
+.bac4{
+    height: 300px;
+    background-color: lightcoral;
+    padding-top: 25px;
+}
+
+.bac2{
+    height: 300px;
+    background-color: bisque;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+.bac1{
+    height: 300px;
+    background-color: darkorchid;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+.bac3{
+    height: 300px;
+    background-color: firebrick;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+.E2 , .E4 , .E1{
+    padding-top: 40px;
+    font-size: 25px;
+    background-color: white;
+    height: 36px;
+}
+
+.E3{
+    padding-top: 40px;
+    font-size: 25px;
+    background-color: white;
+    height: 36px;
+}
+
+
+/*PARTIE-6*/
+
+.partie6{
+    height: 400px;
+    text-align: center;
+}
+
+.partie6 img{
+    padding-top: 50px;
+    width: 60px;
+}
+
+.partie6 p{
+    padding-top: 70px;
+}
+
+
+/*partie7*/
+
+.partie7{
+    background-color: rgba(0, 0, 255, 0.3);
+    height: 600px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.tout{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    padding-left: 140px;
+    padding-top: 30px;
+}
+
+.partie7 h1{
+    padding-top: 50px;
+}
+
+.partie7 .copyrite{
+    padding-top: 110px;
+}
+
+
+@media screen and (max-width: 680px) {
+ 
+    ul{
+        font-size: 8px;
+       padding-right: 20px;
+    }  
+    
+    header{
+        height: 80px;
+        margin: -40px;
+    }
+
+    .partie1 .P1{
+        width: 180px;
+        font-size: 10px;
+        float: right;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        margin-right: 120px;
+    }
+
+    .partie2  {
+        height: 1200px;
+        text-align: center;
+        display: block;
+    }
+
+    .programmation , .design , .markting{
+
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+
+    .partie4{
+        height: 2900px;
+        padding-top: 70px;
+    }
+
+    .haut , .bas{
+        display: block;
+        margin-left: 80px;
+    }
+
+    #premier , #second , #troisieme , #quatrieme , #pre , #sec , #troi , #qua{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .num1 , .num2 , .num3 , .num4{
+        width: 300px;
+        margin-bottom: 40px;
+    }
+
+    .num2 .gauche{
+        width: 240px;
+        
+    }
+
+    .num2 .droite{
+        width: 60px;
+    }
+
+    .num3 .gauche2{
+        width: 90%;
+       
+    }
+
+    .num3 .droite2{
+        width: 10%;
+    }
+
+    .num4 .gauche3{
+        width: 70%;
+    }
+    
+    .num4 .droite3{
+        width: 30%;
+    }
+
+    .num3 , .num4 , .SPan{
+        margin-right: 60px;
+    }
+
+
+    .partie5{
+        margin-top: -2080px;
+        height: 2120px;
+    }
+
+    .team{
+        display: block;
+        
+    }
+
+    #jane , #jacob , #leslie , #brooklyn{
+        width: 350px;
+        margin-bottom: 50px;
+    }
+
+    .av1 , .av2 , .av3 , .av4{
+       padding-left: 50px;
+    }
+
+   .tout{
+        display: block;
+        padding-right: 100px;
+   }
+
+   .partie7{
+    height: 1000px;
+   }
+
+   .partie7 h1{
+    padding-top: 160px;
+}
+
+.partie7 .copyrite{
+    padding-top: 250px;
+}
+
+
+}
+
+
+@media screen and (min-width: 681px) and (max-width: 820px){
+    
+    ul{
+        font-size: 14px;
+    }  
+    
+    
+    .partie1 .P1{
+        width: 220px;
+        font-size: 15px;
+        float: right;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        margin-right: 190px;
+    }
+
+    .partie4{
+        height: 2900px;
+        padding-top: 70px;
+    }
+
+    .haut , .bas{
+        display: block;
+        margin-left: 130px;
+    }
+
+    #premier , #second , #troisieme , #quatrieme , #pre , #sec , #troi , #qua{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .num1 , .num2 , .num3 , .num4{
+        margin-bottom: 30px;
+    }
+
+    .num3 , .num4{
+        margin-right: 40px;
+    }
+
+    .SPan{
+        margin-right: 40px;
+    }
+
+    .partie5{
+        margin-top: -2080px;
+        height: 2120px;
+    }
+
+    .team{
+        display: block;
+        
+    }
+
+    #jane , #jacob , #leslie , #brooklyn{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .av1 , .av2 , .av3 , .av4{
+       padding-left: 100px;
+    }
+
+    .tout{
+        display: block;
+        padding-right: 100px;
+   }
+
+   .partie7{
+    height: 1000px;
+   }
+
+   .partie7 h1{
+    padding-top: 160px;
+}
+
+.partie7 .copyrite{
+    padding-top: 250px;
+}
+
+}
+
+
+@media screen and (min-width: 821px) and (max-width: 1200px){
+
+    .partie1 .P1{
+        width: 250px;
+        font-size: 20px;
+        float: right;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        margin-right: 250px;
+    }
+
+    .partie2  {
+        gap: 10px;
+    }
+
+    .partie2 img{
+        width: 30%;    
+    }
+
+    .partie4{
+        height: 2900px;
+        padding-top: 70px;
+    }
+
+    .haut , .bas{
+        display: block;
+        margin-left: 130px;
+    }
+
+    #premier , #second , #troisieme , #quatrieme , #pre , #sec , #troi , #qua{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .num1 , .num2 , .num3 , .num4{
+        margin-bottom: 30px;
+    }
+
+    .num3 , .num4{
+        margin-right: 270px;
+    }
+
+    .SPan{
+        margin-right: 270px;
+    }
+
+    .partie5{
+        margin-top: -2080px;
+        height: 2120px;
+    }
+
+    .team{
+        display: block;
+        
+    }
+
+    #jane , #jacob , #leslie , #brooklyn{
+        width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .av1 , .av2 , .av3 , .av4{
+       padding-left: 200px;
+    }
+
+
+    
+
+
+}
